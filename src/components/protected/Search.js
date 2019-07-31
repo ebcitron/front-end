@@ -20,10 +20,12 @@ const callSearchFunction = (e) => {
 
 return ( 
     <form className="search">
-        <input value = {searchValue} onChange={handleSearchInputChanges} type="text" />
+        <input value = {searchValue} onChange={handleChange} type="text" />
         <input onClick={callSearchFunction} type = 'Submit' value="Search" />
-        
+
         
     </form>
 )
 }
+
+export default Search;
